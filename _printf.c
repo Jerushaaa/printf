@@ -5,7 +5,7 @@
 
 /**
  * _printf - function my printf
- * @format: string whit format to print
+ * @format: string which format to print
  *
  * Return: number of chars that print
  */
