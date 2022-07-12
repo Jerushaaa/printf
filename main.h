@@ -33,9 +33,6 @@ int unsigned_integer(va_list);
 int print_octal(va_list list);
 int print_hex(va_list list);
 int print_heX(va_list list);
-int print_address(va_list l, conver_t *f);
-int print_S(va_list l, conver_t *f);
-int get_flag(char s, conver_t *f);
 
 /*Helper functions*/
 unsigned int base_len(unsigned int, int);
