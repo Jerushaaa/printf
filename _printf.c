@@ -2,12 +2,13 @@
 #include <stdlib.h>
 
 /**
- * check_for_specifiers - checks if there is a valid format specifier
+ * _printf - Recieves the main string and all the necessary parameters to
+ * print a formated string
  * @format: possible format specifier
  *
- * Return: pointer to valid function or NULL
+ * Return: A total count of the characters printed
  */
-static int (*check_for_specifiers(const char *format))(va_list)
+int _printf(const char *format, ...)
 {
 	unsigned int i;
 	print_t p[] = {
