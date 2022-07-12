@@ -1,8 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <stdarg.h>
-
 /**
  * struct print - structure for printing various types
  * @t: type to print
@@ -30,4 +29,4 @@ int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
 
-#endif
+#endif  /* _MAIN_H */
